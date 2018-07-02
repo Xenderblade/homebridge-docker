@@ -4,7 +4,7 @@ BASEDIR=$(dirname $0)
 cd $BASEDIR
 
 VERSION=$(<VERSION)
-IMAGE_NAME="marcoraddatz/homebridge"
+IMAGE_NAME="xenderblade/homebridge-docker"
 CONTAINER_NAME=Homebridge
 
 ACTION=$1
